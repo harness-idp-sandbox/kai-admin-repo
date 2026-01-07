@@ -62,7 +62,7 @@ spec:
     name: Provision Java App
     action: trigger:harness-custom-pipeline
     input:
-      url: https://app.harness.io/ng/account/Y_Knq2F1SRiXpJCQ3X_xsw/all/orgs/default/projects/default_project/pipelines/Java_App_Provisioner/pipeline-studio/?storeType=INLINE
+      url: https://app.harness.io/ng/account/Y_Knq2F1SRiXpJCQ3X_xsw/all/orgs/default/projects/default_project/pipelines/Java_App_Provisioner/pipeline-studio/?storeType=REMOTE&connectorRef=account.ghharnessidpsandbox&repoName=kai-admin-repo&branch=main
       apikey: ${{ parameters.token }}
       inputset:
         project_name: ${{ parameters.project_name }}
