@@ -3,7 +3,7 @@ kind: Workflow
 type: workflow
 identifier: Provision_Java_App
 name: Provision Java App
-owner: user:account/todd.parson@harness.io
+owner: group:account/_account_all_users
 orgIdentifier: default
 projectIdentifier: default_project
 spec:
