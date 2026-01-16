@@ -48,7 +48,7 @@ metadata:
     
     #Harness CI/CD dashboard
     harness.io/pipelines: |
-      Build and Deploy: https://app.harness.io/ng/account/EeRjnXTnS4GrLG5VNNJZUw/all/orgs/sandbox/projects/parson/pipelines/Java_App_Provisioner/pipeline-studio/?storeType=INLINE
+      Build and Deploy: https://app.harness.io/ng/account/Y_Knq2F1SRiXpJCQ3X_xsw/all/orgs/default/projects/d[…]rRef=account.ghharnessidpsandbox&storeType=REMOTE&branch=main
     
     #Harness STO dashboard
     #harness.io/sto-test-target:
