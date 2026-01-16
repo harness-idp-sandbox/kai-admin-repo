@@ -48,7 +48,7 @@ metadata:
     
     #Harness CI/CD dashboard
     harness.io/pipelines: |
-      Build and Deploy: https://app.harness.io/ng/account/Y_Knq2F1SRiXpJCQ3X_xsw/all/orgs/default/projects/d[…]rRef=account.ghharnessidpsandbox&storeType=REMOTE&branch=main
+      Build and Deploy: https://app.harness.io/ng/account/Y_Knq2F1SRiXpJCQ3X_xsw/all/orgs/default/projects/default_project/pipelines/Java_App_Provisioner/pipeline-studio/?storeType=REMOTE&connectorRef=account.ghharnessidpsandbox&repoName=kai-admin-repo&branch=main
     
     #Harness STO dashboard
     #harness.io/sto-test-target:
