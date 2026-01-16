@@ -309,13 +309,6 @@ pipeline:
           pipelineStatus: Success
           condition: <+pipeline.variables.testing> == "no"
     - stage:
-        name: Approval
-        identifier: Approval
-        tags: {}
-        template:
-          templateRef: ServiceNow_Approval
-          versionLabel: "1.0"
-    - stage:
         name: Deploy to Dev
         identifier: Deploy_to_Dev
         description: ""
