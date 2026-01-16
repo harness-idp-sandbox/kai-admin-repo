@@ -41,7 +41,7 @@ metadata:
     
     #Sonar dashboard
     #Update if not using 'parson' Sonar instance
-    sonarqube.org/project-key: parson/{{ cookiecutter.account_name }}-{{ cookiecutter.project_slug }}
+    sonarqube.org/project-key: {{ cookiecutter.account_name }}-{{ cookiecutter.project_slug }}
     
     #Kubernetes dashboard
     backstage.io/kubernetes-label-selector: 'app={{ cookiecutter.service_identifier }}'
